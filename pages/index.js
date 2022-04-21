@@ -42,8 +42,9 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>OpenAI Quickstart</title>
-        <link rel="icon" href="/dog.png" />
+        <title>Email Generator</title>
+        <link rel="icon" href="/envelope-solid.svg" />
+        <link rel="apple-touch-icon"  href="/envelope-solid.svg" />
       </Head>
 
       <main className={styles.main}>
