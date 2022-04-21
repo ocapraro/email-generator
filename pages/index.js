@@ -46,6 +46,10 @@ export default function Home() {
         <link rel="icon" href="/envelope-solid.svg" />
         <link rel="apple-touch-icon"  href="/envelope-solid.svg" />
       </Head>
+      <meta 
+        name='viewport' 
+        content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' 
+      />
 
       <main className={styles.main}>
         <div className={styles["email-header"]}>
