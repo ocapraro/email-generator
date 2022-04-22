@@ -101,7 +101,7 @@ export default function Home() {
               />
             </label>
           </div>
-          <div className={styles.result} style={loading?{color:"#ccc"}:{}}>{result}</div>
+          <textarea className={styles.result} style={loading?{color:"#ccc"}:{}} value={result} />
           <div className={styles["button-group"]}>
             <input type="submit" className={styles.button} disabled={loading} value={loading?"Loading...":"Generate Email"} />
             <div id={styles.copy} className={styles.button} style={{backgroundColor:"#F4F4F4", color:"unset"}} onClick={copyEmail}>Copy Email</div>

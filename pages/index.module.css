@@ -14,7 +14,9 @@
   font-style: normal;
 }
 .main,
-.main input, .copy-popup {
+.main input,
+.main textarea,
+.copy-popup {
   font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
   font-size: .875rem;
   line-height: 24px;
@@ -129,6 +131,12 @@
 }
 #copy {
   display: none;
+}
+
+.main textarea {
+  width: unset;
+  border: none;
+  outline: none;
 }
 
 @media only screen and (max-width: 600px){
