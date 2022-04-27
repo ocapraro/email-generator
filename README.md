@@ -1,6 +1,8 @@
-# OpenAI API Quickstart - Node.js example app
+# Email Generator
 
-This is an example pet name generator app used in the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart). It uses the [Next.js](https://nextjs.org/) framework with [React](https://reactjs.org/). Check out the tutorial or follow the instructions below to get set up.
+![Email Gen Demo](./assets/emailGeneratorDemo.gif)
+
+This is a simple program that will generate an email for you. You can input a list of questions and tags and the program will use [GPT-3](https://openai.com/api/) generate an email with the relevant information.
 
 ## Setup
 
@@ -11,7 +13,7 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
 3. Navigate into the project directory
 
    ```bash
-   $ cd openai-quickstart-node
+   $ cd email-generator
    ```
 
 4. Install the requirements
@@ -34,4 +36,4 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
    $ npm run dev
    ```
 
-You should now be able to access the app at [http://localhost:3000](http://localhost:3000)! For the full context behind this example app, check out the [tutorial](https://beta.openai.com/docs/quickstart).
+You should now be able to access the app at [http://localhost:3000](http://localhost:3000)!
