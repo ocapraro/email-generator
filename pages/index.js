@@ -50,6 +50,9 @@ export default function Home() {
         name='viewport' 
         content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' 
       />
+      <div className={styles["github-link"]} onClick={()=>{window.open('https://github.com/ocapraro/email-generator', '_blank');}}>
+        <img width="100%" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />
+      </div>
 
       <main className={styles.main}>
         <div className={styles["email-header"]}>

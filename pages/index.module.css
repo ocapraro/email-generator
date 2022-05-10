@@ -137,6 +137,19 @@
   width: unset;
   border: none;
   outline: none;
+  resize: none;
+}
+
+.github-link {
+  width: 40px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.github-link img {
+  filter: invert(35%) sepia(0%) saturate(0%) hue-rotate(196deg) brightness(108%) contrast(83%);
 }
 
 @media only screen and (max-width: 600px){
@@ -153,5 +166,8 @@
   }
   #copy {
     display: block;
+  }
+  .github-link {
+    display: none;
   }
 }
